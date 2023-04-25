@@ -1,0 +1,6 @@
+(
+    content: [
+        "ui/*.{html}",
+    ],
+    extend_collection_options: None,
+)
