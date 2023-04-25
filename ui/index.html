@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="./styles.css"> -->
+        <link rel="stylesheet" href="./railwind.css" />
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./main.js"></script>
+        <title>A C T I X ! :D</title>
+    </head>
+    <body class="container py-8 px-4 bg-stone-100 font-sans text-slate-900">
+        <h1 class="text-5xl font-semibold" id="header">Welcome from Actix!</h1>
+        <h2 hidden id="loading">We are loading :)))</h2>
+        <section>
+        <p id="showSocketMessages">Send messages here pls</p>
+    </section>
+        <section class=" px-6 py-4 rounded-md">
+            <p>This is the first line of something</p>
+            <p>Muh name is giovanni Giorgio</p>
+            <p>But everyone calls me <span class="text-red-500 font-bold">Giorgio</span></p>
+            <div>
+                <input id="socketInput" type="text">
+                <button id="openSocket" class="hover:bg-blue-600 my-4 cursor-pointer block py-4 px-6 shadow-md bg-blue-900 text-blue-50 border-0 rounded-md" > Not a button </button>
+                <span class="text-sm">Click the button to send Spain to Australia</span>
+            </div>
+        </section>
+        <section class="my-12 px-6 py-4  rounded-md" >
+            <h2>We test forms here</h2>
+            <p>This big boy can upload 373 images per nanoseconds!</p>
+            <form id="postPicture" method="post" enctype="multipart/form-data">
+                <div className="p-4 px-6">
+                    <label for="file">Choose file to upload</label>
+                    <input type="file" id="file" name="file" multiple />
+                </div>
+                <div>
+                    <button class="hover:bg-blue-600 my-4 cursor-pointer block py-4 px-6 shadow-md bg-blue-900 text-blue-50 border-0 rounded-md">Submit</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
